@@ -9,7 +9,6 @@
  * Main module of the application.
  */
 var app = angular.module('remainingDays');
-
 app.directive('remainingDay', function ($interval) {
     return {
         restrict: 'E',
@@ -50,3 +49,4 @@ app.directive('remainingDay', function ($interval) {
         }
     };
 });
+
