@@ -2,13 +2,12 @@
 
 /**
  * @ngdoc function
- * @name remainingDaysApp.controller:MainCtrl
+ * @name remainingDays.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the remainingDaysApp
+ * Controller of the remainingDays
  */
-angular.module('remainingDaysApp')
-  .controller('MainCtrl', function () {
+app.controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
