@@ -8,20 +8,7 @@
  *
  * Main module of the application.
  */
-var app = angular.module('remainingDays', ['ngRoute']);
-app.config(function ($routeProvider) {
-    $routeProvider
-        .when('/', {
-            templateUrl: 'views/main.html',
-            controller: 'MainCtrl',
-            controllerAs: 'main'
-        })
-        .otherwise({
-            redirectTo: '/'
-        });
-});
-
-
+var app = angular.module('remainingDays');
 app.directive('remainingDay', function ($interval) {
     return {
         restrict: 'E',
